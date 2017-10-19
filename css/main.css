@@ -1,0 +1,12 @@
+#row li{
+  display:inline;
+  color:red;
+}
+
+#row{
+  background-color:blue;
+}
+
+#container-fluid{
+  background-color:red;
+}
