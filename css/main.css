@@ -1,12 +1,114 @@
-#row li{
-  display:inline;
-  color:red;
-}
+    body{
+      background-color:#e7e1d7;
+      overflow-x:hidden;
+      font-family: 'Lato', sans-serif;
+    }      
 
-#row{
-  background-color:blue;
-}
+    .Titles{
+      float:left;
+      text-shadow:0 1px 1px #fff;
+    }
 
-#container-fluid{
-  background-color:red;
-}
+    .Title {
+      font-size:30px;
+    }
+
+    .Titles2{
+      float:left;
+      text-shadow:0 1px 1px #fff;
+    }
+
+    .Titles2 p{
+      font-size:3vw;
+    }
+
+    .Titles p{
+      font-size:3vw;
+    }
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      width:100%;
+      background-color:black;
+    }
+
+    .navbar a{
+      color:#e84960;
+    }
+
+    .navbar li{
+      display:inline;
+      padding-left:0%;
+    }
+
+    .navbar ul{
+      text-align:right;
+    }
+
+    .Titles p{
+      margin-top:10%;
+      width:90%;
+      margin-left:5%;
+      color:black;
+    }
+
+      .Titles2 p{
+      margin-top:10%;
+      width:90%;
+      margin-left:5%;
+      color:black;
+    }
+
+    footer {
+      background-color:black;
+      color: white;
+      width:100%;
+      padding-top:3%;
+      padding-bottom:3%;
+      text-align:left;
+    }
+
+     .hiddenWords{
+      display:none;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+    .Titles2 h1{
+      font-size:8vw;
+      margin-top:10%;
+    }
+
+    .Titles2 h2{
+      text-align:left;
+      margin-left:2%;
+      margin-top:5%;
+    }
+
+    .Titles2 p{
+      font-size:1.6vw;
+    }
+
+    .Titles p{
+      font-size:1.6vw;
+    }
+
+    .Titles2 img{
+      padding-bottom: 3%;
+    }
+
+    .navbar li{
+      padding-left:7%;
+    }
+
+    .hiddenWords{
+    }
+
+
